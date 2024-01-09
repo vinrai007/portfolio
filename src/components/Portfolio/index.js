@@ -15,10 +15,12 @@ class App extends React.Component {
     return (
       <div className="port-container">
         <h1 className="title">PROJECT</h1>
-        <div className="photo" onClick={this.showAlert}>
+        <a href='https://mtm-6emn.onrender.com/'>
+        <div className="photo" >
           <h2>MATTERS THAT MATTER</h2>
           <img src={LogoS} alt="Photo 1" />
         </div>
+        </a>
         <div className="photo" onClick={this.showAlert}>
           <h2>NATIONAL POLICE PORTAL</h2>
           <img src={LogoSubtitle} alt="Photo 2" />

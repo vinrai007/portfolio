@@ -32,7 +32,9 @@ $accent-color: #ff5722;
 // }
 
 .port-container {
-    width: 50%;
+    // width: 50%;
+    max-width: 900px;
+    max-height: 100%;
     margin: 0 auto ;
     padding: 20px;
     background-color: #fff;
